@@ -1,0 +1,4 @@
+httpx
+pydantic-settings
+loguru
+httpx[socks]
