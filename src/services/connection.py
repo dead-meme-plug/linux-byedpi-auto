@@ -39,8 +39,7 @@ class HTTPConnectionTester(IConnectionTester):
             with httpx.Client(
                 proxy=self.proxy,
                 timeout=self.timeout,
-                limits=self.limits,
-                verify=False
+                limits=self.limits
             ) as client:
                 logger.debug(f"Testing connection to {host}")
                 response = client.get(host)
