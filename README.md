@@ -38,6 +38,7 @@ python src
 ```
 
 После завершения тестирования будет создан файл `results.txt` с результатами.
+![image](https://github.com/user-attachments/assets/d5a9d8eb-989e-4656-a36d-875602e90775)
 
 ## Зависимости
 
